@@ -1,0 +1,45 @@
+{
+    "expo": {
+        "name": "Lynbrook High School",
+        "slug": "lhs-app",
+        "privacy": "public",
+        "platforms": ["ios", "android"],
+        "version": "1.2.1",
+        "orientation": "portrait",
+        "icon": "./assets/images/icon.png",
+        "splash": {
+            "image": "./assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#033265"
+        },
+        "updates": {
+            "enabled": true
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "org.fuhsd.lhs.app",
+            "buildNumber": "1.2.1",
+            "config": {
+                "googleSignIn": {
+                    "reservedClientId": "com.googleusercontent.apps.591406000207-vpmitfgrh2i4ri0vp2hobcsca6n46unp"
+                }
+            },
+            "infoPlist": {
+                "NSCameraUsageDescription": "Allow camera access to scan barcodes and get spirit points for events.",
+                "NSCalendarsUsageDescription": "Allow calendar access if you want to integrate your personal calendar with the school calendars in the app (will only be READ and only stored on your phone)."
+            }
+        },
+        "android": {
+            "package": "org.fuhsd.lhs.app",
+            "versionCode": 19,
+            "config": {
+                "googleSignIn": {
+                    "apiKey": "AIzaSyAyST8sxOcvfyPMg-NFFtQmFCs-NzDtTac",
+                    "certificateHash": "59:8F:C9:B7:A4:ED:BE:70:6C:79:04:E2:1A:EE:EC:34:E7:F9:C1:83"
+                }
+            },
+            "permissions": ["CAMERA", "READ_CALENDAR"]
+        }
+    }
+}

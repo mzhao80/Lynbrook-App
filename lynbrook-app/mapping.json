@@ -1,0 +1,23 @@
+{
+    "components": {
+        "ListItem": {
+            "appearances": {
+                "default": {
+                    "mapping": {
+                        "titleFontSize": "text-subtitle-1-font-size",
+                        "titleFontWeight": "text-subtitle-1-font-weight",
+                        "titleFontFamily": "text-subtitle-1-font-family",
+                        "descriptionFontSize": "text-subtitle-1-font-size"
+                    }
+                },
+                "big": {
+                    "mapping": {
+                        "titleFontSize": "text-heading-6-font-size",
+                        "titleFontWeight": "text-heading-6-font-weight",
+                        "titleFontFamily": "text-heading-6-font-family"
+                    }
+                }
+            }
+        }
+    }
+}
